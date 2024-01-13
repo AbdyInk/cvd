@@ -1,6 +1,6 @@
 (function ($) {
     "use strict";
-
+    
     // Spinner
     var spinner = function () {
         setTimeout(function () {
@@ -110,16 +110,7 @@
         }
     });
 
-    //Clean and focus textbox
-    function cleantext()
-    {
-        $("#input:text").val("");
-        $("#input:text").focus()
-    }
 
-    window.addEventListener('storage', function(event){
-        cleantext()
-    });
+    
     
 })(jQuery);
-
