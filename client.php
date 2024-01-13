@@ -129,11 +129,12 @@ if (!$conexion) {
     <script src="js/parallax.min.js"></script>
     <script src="js/jquery.singlePageNav.min.js"></script>
     <script>
-    localStorage.setItem('paginaBVisitada', false);
-    localStorage.setItem('paginaBVisitada', true);
-        function regresarPagina() {
-            window.history.back();
-        }
+
+        localStorage.setItem('s', false);
+        localStorage.setItem('s', true);
+        window.history.back();
+
+            
 
 
         function checkAndShowHideMenu() {
